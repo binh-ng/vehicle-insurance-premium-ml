@@ -1,0 +1,12 @@
+# raw data is downloaded from Mendeley Data (see data/README.md)
+data/raw/*.csv
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+desktop.ini

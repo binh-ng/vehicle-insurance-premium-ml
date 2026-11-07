@@ -1,0 +1,115 @@
+{
+  "smear": 1.0458199616402333,
+  "features": [
+    "sex",
+    "insurance_type",
+    "coverage",
+    "vehicle_type",
+    "usage",
+    "make",
+    "season",
+    "log_insured_value",
+    "vehicle_age",
+    "seats_num",
+    "carrying_capacity",
+    "ccm_ton",
+    "duration_days",
+    "prior_policies",
+    "prior_claim",
+    "customer_tenure"
+  ],
+  "categorical": [
+    "sex",
+    "insurance_type",
+    "coverage",
+    "vehicle_type",
+    "usage",
+    "make",
+    "season"
+  ],
+  "categories": {
+    "sex": [
+      "Female",
+      "Legal entity",
+      "Male"
+    ],
+    "insurance_type": [
+      "Commercial",
+      "Motor trade road risk",
+      "Private"
+    ],
+    "coverage": [
+      "Comprehensive",
+      "Liability only"
+    ],
+    "vehicle_type": [
+      "Automobile",
+      "Bus",
+      "Motor-cycle",
+      "Pick-up",
+      "Special construction",
+      "Station Wagones",
+      "Tanker",
+      "Tractor",
+      "Trailers and semitrailers",
+      "Truck"
+    ],
+    "usage": [
+      "Agricultural Any Farm",
+      "Agricultural Own Farm",
+      "Ambulance",
+      "Car Hires",
+      "Fare Paying Passengers",
+      "Fire fighting",
+      "General Cartage",
+      "Learnes",
+      "Others",
+      "Own Goods",
+      "Own service",
+      "Private",
+      "Special Construction",
+      "Taxi"
+    ],
+    "make": [
+      "ASTRA",
+      "BAJAJ",
+      "BAJAJI",
+      "BISHOFTU",
+      "BOXER",
+      "CALABRESE",
+      "DAEWOO",
+      "FIAT",
+      "FORCE",
+      "FORD",
+      "HYUNDAI",
+      "INTERNATIONAL USE",
+      "ISUZU",
+      "IVECO",
+      "LADA",
+      "LIFAN",
+      "MAZDA",
+      "MERCEDES",
+      "MERCEEDES",
+      "MESFIN",
+      "MITSUBISHI",
+      "NISSAN",
+      "ORAL",
+      "Other",
+      "SINO",
+      "SINO HOWO",
+      "SUZUKI",
+      "TOYOTA",
+      "TVS",
+      "VOLVO",
+      "YAMAHA"
+    ],
+    "season": [
+      "Autumn",
+      "Spring",
+      "Summer",
+      "Winter"
+    ]
+  },
+  "num_boost_round": 1946,
+  "trained_rows": 801609
+}

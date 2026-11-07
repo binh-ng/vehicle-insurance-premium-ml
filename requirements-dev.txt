@@ -1,0 +1,7 @@
+# Full pipeline: rebuild the dataset and retrain every model
+-r requirements.txt
+scikit-learn>=1.5
+xgboost>=2.1
+optuna>=4.0
+statsmodels>=0.14
+jupyter

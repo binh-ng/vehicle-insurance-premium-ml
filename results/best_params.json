@@ -1,0 +1,62 @@
+{
+  "Ridge (log)": {
+    "alpha": 1.0
+  },
+  "Lasso (log)": {
+    "alpha": 3.1622776601683795e-05,
+    "l1_ratio": 1.0,
+    "final_fit_rows": 149922
+  },
+  "Elastic Net (log)": {
+    "alpha": 3.1622776601683795e-05,
+    "l1_ratio": 0.8,
+    "final_fit_rows": 149922
+  },
+  "Decision Tree": {
+    "min_samples_leaf": 5,
+    "max_depth": 12
+  },
+  "Random Forest": {
+    "n_estimators": 100,
+    "min_samples_leaf": 3,
+    "max_samples": 0.6,
+    "max_features": 0.5,
+    "max_depth": 20
+  },
+  "HistGradientBoosting": {
+    "learning_rate": 0.047551317473450413,
+    "max_leaf_nodes": 129,
+    "min_samples_leaf": 22,
+    "l2_regularization": 0.24565933453056624,
+    "optuna_trials": 17
+  },
+  "XGBoost": {
+    "eta": 0.035579502615921556,
+    "max_depth": 9,
+    "min_child_weight": 6.930976338699806,
+    "subsample": 0.9580413527565775,
+    "colsample_bytree": 0.605260820747618,
+    "lambda": 1.6447163803289064,
+    "num_boost_round": 985,
+    "optuna_trials": 23
+  },
+  "LightGBM": {
+    "learning_rate": 0.0327307976499626,
+    "num_leaves": 71,
+    "min_child_samples": 15,
+    "feature_fraction": 0.5780312041011803,
+    "bagging_fraction": 0.8675418827647889,
+    "lambda_l2": 2.361771309536442,
+    "cat_smooth": 4.186980251283819,
+    "num_boost_round": 1946,
+    "optuna_trials": 22
+  },
+  "Neural Network (MLP)": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "alpha": 0.0001,
+    "train_rows": 199692
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "reported": {
+    "train": {
+      "r2": 0.783,
+      "rmse": 6109.13,
+      "mae": 3483.67
+    },
+    "test": {
+      "r2": 0.742,
+      "rmse": 6641.06,
+      "mae": 3864.53
+    }
+  },
+  "rows_raw": 508499,
+  "rows_after_original_dedup": 244848,
+  "note": "drop_duplicates on 9 columns removes renewals of the same vehicle with identical values",
+  "runs": [
+    {
+      "sample_seed": 42,
+      "train": {
+        "r2": 0.8204573021394451,
+        "rmse": 5261.568708368077,
+        "mae": 2776.355910391545
+      },
+      "test": {
+        "r2": 0.7638151893826635,
+        "rmse": 6063.023291921126,
+        "mae": 3146.6247720516135
+      }
+    },
+    {
+      "sample_seed": 1,
+      "train": {
+        "r2": 0.8248905233294499,
+        "rmse": 5263.051238385791,
+        "mae": 2751.7143613447683
+      },
+      "test": {
+        "r2": 0.7602143903041179,
+        "rmse": 6144.021443256471,
+        "mae": 3125.7572094522934
+      }
+    },
+    {
+      "sample_seed": 2,
+      "train": {
+        "r2": 0.7861696915016041,
+        "rmse": 6305.718552341668,
+        "mae": 2819.5041681543044
+      },
+      "test": {
+        "r2": 0.788267062829479,
+        "rmse": 5653.2780772147225,
+        "mae": 3034.118155277643
+      }
+    },
+    {
+      "sample_seed": 3,
+      "train": {
+        "r2": 0.8015564142419711,
+        "rmse": 5706.326776959915,
+        "mae": 2835.871730297891
+      },
+      "test": {
+        "r2": 0.7055768626381818,
+        "rmse": 7333.349525817805,
+        "mae": 3240.3461707126885
+      }
+    },
+    {
+      "sample_seed": 4,
+      "train": {
+        "r2": 0.8257018068356444,
+        "rmse": 5318.840597473994,
+        "mae": 2767.4639532253923
+      },
+      "test": {
+        "r2": 0.7679775590434156,
+        "rmse": 6169.135380794806,
+        "mae": 3197.2189483726074
+      }
+    }
+  ],
+  "importance_tuned_dummies": {
+    "insured_value": 0.6003,
+    "ccm_ton": 0.1333,
+    "vehicle_type_Truck": 0.0454,
+    "production_year": 0.0446,
+    "seats_num": 0.0414,
+    "usage_General Cartage": 0.0338,
+    "usage_Fare Paying Passengers": 0.0255,
+    "usage_Own Goods": 0.0241
+  },
+  "importance_tuned_grouped": {
+    "insured_value": 0.6003,
+    "ccm_ton": 0.1333,
+    "usage": 0.0927,
+    "vehicle_type": 0.0757,
+    "production_year": 0.0446,
+    "seats_num": 0.0414,
+    "sex": 0.0098,
+    "insurance_type": 0.0022
+  },
+  "test_r2_range": [
+    0.7055768626381818,
+    0.788267062829479
+  ]
+}

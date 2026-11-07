@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below, and cite the original dataset (Terefe, 2023)."
+title: "Predicting Vehicle Insurance Premiums with Machine Learning"
+authors:
+  - family-names: Nguyen
+    given-names: Binh
+    alias: Bill
+  - family-names: Hui
+    given-names: Tsz Chuen
+    alias: Alvin
+  - family-names: Kurupakorn
+    given-names: Natcha
+    alias: Judy
+date-released: 2025-02-24
+license: MIT
+references:
+  - type: data
+    title: "Vehicle Insurance data"
+    authors:
+      - family-names: Terefe
+        given-names: Edossa
+    publisher:
+      name: Mendeley Data
+    version: "1"
+    doi: 10.17632/34nfrk36dt.1
+    year: 2023
+    license: CC-BY-4.0
