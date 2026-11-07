@@ -3,7 +3,7 @@
 **Binh Nguyen (Bill) · Hui Tsz Chuen (Alvin) · Natcha Kurupakorn (Judy)**
 Master of Data Science and Analytics, University of Calgary · DATA 611 Group 6 · Showcased at **DataCon 2025**
 
-[**▶ Live demo (Streamlit)**](STREAMLIT_URL) · [Report](docs/report.pdf) · [Slides](docs/presentation.pdf) · [Poster](docs/datacon2025_poster.pdf) · [What changed](CHANGES.md) · [References](REFERENCES.md)
+[**▶ Live demo (Streamlit)**](https://vehicle-insurance-premium-ml.streamlit.app/) · [Report](docs/report.pdf) · [Slides](docs/presentation.pdf) · [Poster](docs/datacon2025_poster.pdf) · [What changed](CHANGES.md) · [References](REFERENCES.md)
 
 ---
 
